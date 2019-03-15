@@ -4,13 +4,14 @@ namespace Navitia\Component\Tests\Configuration\Processor;
 
 use Navitia\Component\Configuration\Processor\ObjectConfigurationProcessor;
 use Navitia\Component\Configuration\NavitiaConfiguration;
+use \PHPUnit\Framework\TestCase;
 
 /**
  * Description of ObjectConfigurationProcessorTest
  *
  * @author rndiaye
  */
-class ObjectConfigurationProcessorTest extends \PHPUnit_Framework_TestCase
+class ObjectConfigurationProcessorTest extends TestCase
 {
 
     private $processor;

@@ -14,6 +14,7 @@ class CoveragePlacesParameters extends AbstractCoverageParameters
     protected $type;
     protected $nbmax;
     protected $admin_uri;
+    protected $_autocomplete;
 
     public function getQ()
     {
@@ -58,4 +59,16 @@ class CoveragePlacesParameters extends AbstractCoverageParameters
         $this->admin_uri = $admin_uri;
         return $this;
     }
+
+    public function getAutocomplete()
+    {
+        return $this->_autocomplete;
+    }
+
+    public function setAutocomplete($_autocomplete)
+    {
+        $this->_autocomplete = $_autocomplete;
+        return $this;
+    }
+
 }

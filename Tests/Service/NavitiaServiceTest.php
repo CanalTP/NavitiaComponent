@@ -4,6 +4,7 @@ namespace Navitia\Component\Tests\Service;
 
 use Navitia\Component\Service\NavitiaService;
 use Navitia\Component\Tests\Environment;
+use \PHPUnit\Framework\TestCase;
 
 /**
  * Description of NavitiaServiceTest
@@ -11,7 +12,7 @@ use Navitia\Component\Tests\Environment;
  * @copyright (c) 2013, CANALTP
  * @author rndiaye
  */
-class NavitiaServiceTest extends \PHPUnit_Framework_TestCase
+class NavitiaServiceTest extends TestCase
 {
     private $api;
     private $service;

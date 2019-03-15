@@ -3,13 +3,14 @@
 namespace Navitia\Component\Tests\Request;
 
 use Navitia\Component\Request\JourneysRequest;
+use \PHPUnit\Framework\TestCase;
 
 /**
  * Description of JourneysRequestTest
  *
  * @author rndiaye
  */
-class JourneysRequestTest extends \PHPUnit_Framework_TestCase
+class JourneysRequestTest extends TestCase
 {
     private $service;
 
